@@ -55,13 +55,13 @@ This repository documents my complete journey of learning Python from absolute b
 
 ## 📂 Repository Structure
 
-- python-mastery-journey/
-- │
-- ├── README.md
-- ├── Phase-01-Fundamentals/
-- ├── Phase-02-Intermediate/
-- ├── Phase-03-Advanced/
-- └── Phase-04-Professional/
+python-mastery-journey/
+│
+├── README.md
+├── Phase-01-Fundamentals/
+├── Phase-02-Intermediate/
+├── Phase-03-Advanced/
+└── Phase-04-Professional/
 
 ---
 

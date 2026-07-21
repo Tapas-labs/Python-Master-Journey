@@ -208,3 +208,249 @@ Output
 
 ---
 
+### 📖 Chapter 2 — Python Installation, VS Code Setup & Your First Program
+
+# 1 Python Install Karna
+Windows:
+- Python ki official website se installer download karo.
+- Installer open karo.
+- "Add Python to PATH" checkbox ko zaroor tick karo.
+- "Install Now" par click karo.
+- Installation complete hone do.
+
+# 2 Python File Ka Extension
+
+Python files hamesha
+
+.py
+
+extension se end hoti hain.
+
+Example
+
+hello.py
+calculator.py
+student.py
+
+Ye .py batata hai ki ye Python source code file hai.
+
+# 3 Pehli Python File Banana
+
+VS Code
+
+↓
+
+New File
+
+↓
+
+Save As
+
+↓
+
+hello.py
+
+Ab coding start.
+
+# 4 First Python Program
+
+Likho
+
+print("Hello World")
+
+Save karo.
+
+Run karo.
+
+Output
+
+Hello World
+
+🎉 Congratulations!
+
+Ye tumhari pehli Python program hai.
+
+# 5 Ye Actually Hua Kya?
+
+Jab tumne likha
+
+print("Hello World")
+
+Computer ne ye process kiya
+
+Tum
+
+↓
+
+hello.py
+
+↓
+
+Python Interpreter
+
+↓
+
+Machine Instructions
+
+↓
+
+Console
+
+↓
+
+Hello World
+
+Python directly computer ko samjhata hai.
+
+# 6 print() Function Kya Hai?
+
+print() Python ka built-in function hai.
+
+Ye screen par output dikhata hai.
+
+Example
+
+print("Python")
+
+Output
+
+Python
+Example 2
+print("Tapas")
+
+Output
+
+Tapas
+Example 3
+print(100)
+
+Output
+
+100
+
+Dhyan do.
+
+Yahan quotes nahi hain.
+
+Python fir bhi number print karta hai.
+
+Example 4
+print(10 + 20)
+
+Output
+
+30
+
+Python pehle calculation karega.
+
+Fir print karega.
+
+Example 5
+print("10 + 20")
+
+Output
+
+10 + 20
+
+Difference dekho.
+
+Quotes ke andar sab kuch text ban jata hai.
+
+Quotes Ka Rule
+
+Python me string likhne ke do common tareeke hain.
+
+Double Quotes
+
+print("Hello")
+
+Single Quotes
+
+print('Hello')
+
+Dono valid hain.
+
+Output
+
+Hello
+Multiple Prints
+print("Hello")
+print("Tapas")
+print("Python")
+
+Output
+
+Hello
+Tapas
+Python
+
+Har print() ke baad next line start hoti hai.
+
+Common Beginner Mistakes
+Mistake 1
+Print("Hello")
+
+❌ Error
+
+Kyuki Python case-sensitive hai.
+
+Correct
+
+print("Hello")
+Mistake 2
+print(Hello)
+
+❌ Error
+
+Python sochega Hello ek variable hai.
+
+Correct
+
+print("Hello")
+Mistake 3
+print("Hello)
+
+❌ Error
+
+Quote complete nahi hua.
+
+Correct
+
+print("Hello")
+Mistake 4
+print("Hello"
+
+❌ Error
+
+Bracket close nahi hui.
+
+Correct
+
+print("Hello")
+Python Is Case Sensitive
+
+Ye bahut important concept hai.
+
+Ye sab alag hain:
+
+- print
+- Print
+- PRINT
+- pRiNt
+
+Sirf
+
+- print
+
+built-in function hai.
+
+### 📌 Chapter Summary
+- Python install aur verify karna seekha.
+- VS Code aur Python extension ka role samjha.
+- .py file create karna seekha.
+- print() function use karna seekha.
+- String aur number print karne ka difference samjha.
+- Common beginner mistakes dekhi.
+- Pehla mini project complete kiya.
+
+---

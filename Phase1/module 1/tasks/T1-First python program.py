@@ -1,0 +1,6 @@
+print("hello world!")
+print("My name is Tapas")
+print("I love Python")
+print(500)
+print(50 + 25)
+print("50 + 25")

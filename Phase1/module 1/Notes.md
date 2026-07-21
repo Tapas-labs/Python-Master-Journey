@@ -222,15 +222,15 @@ Windows:
 
 Python files hamesha
 
-.py
+- .py
 
 extension se end hoti hain.
 
 Example
 
-hello.py
-calculator.py
-student.py
+- hello.py
+- calculator.py
+- student.py
 
 Ye .py batata hai ki ye Python source code file hai.
 
@@ -256,13 +256,13 @@ Ab coding start.
 
 Likho
 
-print("Hello World")
+- print("Hello World")
 
 Save karo.
 
 Run karo.
 
-Output
+- Output
 
 Hello World
 
@@ -274,7 +274,7 @@ Ye tumhari pehli Python program hai.
 
 Jab tumne likha
 
-print("Hello World")
+- print("Hello World")
 
 Computer ne ye process kiya
 
@@ -308,23 +308,26 @@ print() Python ka built-in function hai.
 
 Ye screen par output dikhata hai.
 
-Example
+# Example
 
-print("Python")
+- print("Python")
 
-Output
+- Output
 
 Python
-Example 2
-print("Tapas")
 
-Output
+# Example 2
+- print("Tapas")
+
+- Output
 
 Tapas
-Example 3
-print(100)
 
-Output
+# Example 3
+
+- print(100)
+
+- Output
 
 100
 
@@ -334,10 +337,11 @@ Yahan quotes nahi hain.
 
 Python fir bhi number print karta hai.
 
-Example 4
-print(10 + 20)
+# Example 4
 
-Output
+- print(10 + 20)
+
+- Output
 
 30
 
@@ -345,10 +349,11 @@ Python pehle calculation karega.
 
 Fir print karega.
 
-Example 5
-print("10 + 20")
+# Example 5
 
-Output
+- print("10 + 20")
+
+- Output
 
 10 + 20
 
@@ -356,29 +361,30 @@ Difference dekho.
 
 Quotes ke andar sab kuch text ban jata hai.
 
-Quotes Ka Rule
+## Quotes Ka Rule
 
 Python me string likhne ke do common tareeke hain.
 
-Double Quotes
+# Double Quotes
 
-print("Hello")
+- print("Hello")
 
-Single Quotes
+# Single Quotes
 
-print('Hello')
+- print('Hello')
 
 Dono valid hain.
 
-Output
+- Output
 
 Hello
-Multiple Prints
-print("Hello")
-print("Tapas")
-print("Python")
 
-Output
+# Multiple Prints
+- print("Hello")
+- print("Tapas")
+- print("Python")
+
+- Output
 
 Hello
 Tapas
@@ -386,9 +392,10 @@ Python
 
 Har print() ke baad next line start hoti hai.
 
-Common Beginner Mistakes
-Mistake 1
-Print("Hello")
+## Common Beginner Mistakes
+# Mistake 1:
+
+- Print("Hello")
 
 ❌ Error
 
@@ -396,9 +403,11 @@ Kyuki Python case-sensitive hai.
 
 Correct
 
-print("Hello")
-Mistake 2
-print(Hello)
+- print("Hello")
+
+# Mistake 2
+
+- print(Hello)
 
 ❌ Error
 
@@ -406,9 +415,11 @@ Python sochega Hello ek variable hai.
 
 Correct
 
-print("Hello")
-Mistake 3
-print("Hello)
+- print("Hello")
+
+# Mistake 3
+
+- print("Hello)
 
 ❌ Error
 
@@ -416,9 +427,11 @@ Quote complete nahi hua.
 
 Correct
 
-print("Hello")
-Mistake 4
-print("Hello"
+- print("Hello")
+
+# Mistake 4
+
+- print("Hello"
 
 ❌ Error
 
@@ -426,7 +439,8 @@ Bracket close nahi hui.
 
 Correct
 
-print("Hello")
+- print("Hello")
+
 Python Is Case Sensitive
 
 Ye bahut important concept hai.

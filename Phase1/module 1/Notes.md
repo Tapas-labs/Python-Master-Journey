@@ -572,3 +572,462 @@ built-in function hai.
 - Pehla mini project complete kiya.
 
 ---
+
+### 📖 Chapter 3 — Comments, Syntax, Indentation & Errors
+
+## 🧠 1. Syntax Kya Hota Hai?
+
+Sabse pehle ek real-life example dekhte hain.
+
+Suppose tum English me likho:
+
+❌
+
+Apple I eat.
+
+Grammar galat hai.
+
+Sahi sentence:
+
+✅
+
+I eat an apple.
+
+Grammar follow karni padti hai.
+
+Programming language ki bhi apni grammar hoti hai.
+
+Us grammar ko bolte hain:
+
+Syntax
+
+Definition
+
+Syntax = Programming language ke rules jinhe follow karke code likha jata hai.
+
+Agar syntax follow nahi karoge
+
+↓
+
+Python code samajh nahi payega.
+
+↓
+
+Error dega.
+
+Example
+
+Correct
+
+print("Hello")
+
+Incorrect
+
+print("Hello"
+
+Python bolega
+
+SyntaxError
+
+Kyuki bracket close nahi hui.
+
+Rule 1
+
+Python grammar bahut strict hai.
+
+Ek choti mistake bhi error de sakti hai.
+
+Example
+
+print("Hello")
+
+✅
+
+Lekin
+
+Print("Hello")
+
+❌
+
+Kyuki Python case-sensitive hai.
+
+## 🧠 2. Case Sensitive Kya Hota Hai?
+
+Python me
+
+print
+
+Aur
+
+Print
+
+Same nahi hain.
+
+Ye bhi alag hai
+
+PRINT
+
+Aur
+
+pRiNt
+
+Python ke liye ye sab different names hain.
+
+Sirf
+
+print
+
+built-in function hai.
+
+## 🧠 3. Comments Kya Hote Hain?
+
+Real life example.
+
+Suppose tum book likh rahe ho.
+
+Beech me note likhte ho
+
+Ye formula exam me important hai.
+
+Ye note reader ke liye hai.
+
+Formula ka part nahi.
+
+Programming me bhi aisa hota hai.
+
+Comment computer ke liye nahi hota.
+
+Comment sirf humans ke liye hota hai.
+
+Single Line Comment
+
+Python me
+
+/# Ye comment hai
+
+Example
+
+/# My First Program
+
+print("Hello")
+
+Output
+
+Hello
+
+Comment ignore ho gaya.
+
+Aur
+
+print("Hello")
+
+/# Ye line greeting print karti hai
+
+Output
+
+Hello
+
+Comment execute nahi hota.
+
+Comment Kyu Likhe Jate Hain?
+
+Imagine 6 mahine baad tum apna hi project open karte ho.
+
+Ye code dekho
+
+x = 365
+
+Question
+
+365 kya hai?
+
+Days?
+
+Salary?
+
+Marks?
+
+Password?
+
+Samajh nahi aayega.
+
+# Comment likho
+
+/# Total days in a year
+
+x = 365
+
+Ab instantly samajh aa gaya.
+
+# Good Comments
+
+/# Calculate total marks
+
+marks = 450
+/# User age
+
+age = 18
+Bad Comments
+/# Store x
+
+x = 10
+
+Is comment ka koi fayda nahi.
+
+Code already bata raha hai.
+
+Comment tab likho jab wo extra information de.
+
+Multi-line Comment
+
+Python me officially multi-line comment nahi hota.
+
+Lekin hum commonly ye use karte hain
+
+"""
+This program prints
+student details.
+"""
+
+Ya
+
+'''
+This is also valid.
+'''
+
+Ye technically multi-line string hai, lekin documentation ke liye bahut use hoti hai.
+
+## 🧠 4. Indentation
+
+Ye Python ki sabse unique feature hai.
+
+Dusri languages me
+
+{
+    
+    }
+
+use hota hai.
+
+Python me
+
+Spaces use hoti hain.
+
+Example
+
+if True:
+    print("Hello")
+
+Dhyan do
+
+Ye 4 spaces
+
+    print("Hello")
+
+Ye bahut important hain.
+
+Galat
+
+if True:
+print("Hello")
+
+Python bolega
+
+IndentationError
+
+Indentation Kyu?
+
+Python readable banana chahta hai.
+
+Isliye force karta hai ki code properly align ho.
+
+Example
+
+Office
+
+Manager
+
+    Team Leader
+
+        Employee
+
+            Intern
+
+Hierarchy clearly dikh rahi hai.
+
+Python bhi isi tarah code samajhta hai.
+
+VS Code Ka Shortcut
+
+Tab dabao
+
+↓
+
+4 spaces automatically.
+
+Shift + Tab
+
+↓
+
+Back.
+
+Professional developers manually spaces nahi ginte.
+
+## 🧠 5. Errors Kya Hote Hain?
+
+Error ka matlab
+
+Python code execute nahi kar paya.
+
+Reason
+
+Kuch galat likha hai.
+
+Programming me errors normal hain.
+
+Professional developers bhi roz errors dekhte hain.
+
+Difference sirf itna hai
+
+Beginner
+
+↓
+
+Error dekh kar panic.
+
+Professional
+
+↓
+
+Error padh kar solution.
+
+Error Types
+
+Abhi hum sirf basic dekhenge.
+
+Advanced baad me.
+
+1. Syntax Error
+
+Example
+
+- print("Hello"
+
+Output
+
+SyntaxError
+
+Reason
+
+Bracket close nahi hui.
+
+2. Name Error
+
+Example
+
+print(name)
+
+- Output
+
+NameError
+
+Reason
+
+Python ko name naam ka variable nahi mila.
+
+3. Indentation Error
+
+Example
+
+if True:
+print("Hi")
+
+- Output
+
+IndentationError
+
+Reason
+
+Space missing.
+
+## 4. Type Error
+
+Example
+
+"10" + 5
+
+- Output
+
+TypeError
+
+Reason
+
+String aur number directly add nahi kar sakte.
+
+Ye detail hum Module 2 me padhenge.
+
+Error Message Ko Kaise Read Kare?
+
+Suppose
+
+- print("Hello"
+
+Python likhega
+
+## SyntaxError:
+
+Matlab
+
+↓
+
+Grammar galat hai.
+
+Suppose
+
+NameError
+
+Matlab
+
+↓
+
+Kisi naam ki problem hai.
+
+Suppose
+
+IndentationError
+
+Matlab
+
+↓
+
+Spaces ki problem.
+
+Professional developers pehle last line padhte hain.
+
+Example
+
+- SyntaxError: '(' was never closed
+
+Ye hi actual clue hota hai.
+
+## 🧠 Debugging Kya Hai?
+
+Bug
+
+↓
+
+Code me problem.
+
+Debugging
+
+↓
+
+Us problem ko dhoondhna aur solve karna.
+
+
+Programming ka almost 50% kaam debugging hota hai.
+
+Isliye error se darna nahi.
+
+Error tumhara teacher hai.
+

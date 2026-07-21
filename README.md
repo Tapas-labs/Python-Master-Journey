@@ -54,3 +54,40 @@ This repository documents my complete journey of learning Python from absolute b
 ---
 
 ## 📂 Repository Structure
+
+- python-mastery-journey/
+- │
+- ├── README.md
+- ├── Phase-01-Fundamentals/
+- ├── Phase-02-Intermediate/
+- ├── Phase-03-Advanced/
+- └── Phase-04-Professional/
+
+---
+
+## 📈 Progress
+
+- ✅ Completed Modules: 0
+- 🚧 Current Module: Module 01
+- 🎯 Target: Become a Professional Python Developer
+
+---
+
+## 📝 What Each Module Contains
+
+Every module includes:
+
+- 📖 Notes
+- 💻 Example Programs
+- 🧠 Practice Questions
+- ✅ Tasks
+- 🚀 Mini Project
+- 📚 Summary
+
+---
+
+## 🚀 Final Goal
+
+By the end of this repository, I aim to become a professional Python developer capable of building real-world applications using Python.
+
+Happy Coding! 🚀

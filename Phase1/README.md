@@ -1,8 +1,12 @@
-# 📦 Phase 1 — Python Foundation (Programming Ki Duniya)
+# 📦 Phase 1 — Python Foundation 
 
 Welcome to **Phase 1** of my Python Mastery Journey.
 
 This phase builds a strong foundation in Python programming. By the end of this phase, I will understand the core concepts of programming and be able to write structured Python programs with confidence.
+
+---
+
+**Status:** ⏳ In Progress
 
 ---
 
@@ -327,5 +331,3 @@ Store, retrieve, and manage data using files.
 After completing this phase, I will have a strong understanding of Python fundamentals, programming logic, and problem-solving. This foundation will prepare me for intermediate and advanced Python development.
 
 ---
-
-**Status:** ⏳ In Progress

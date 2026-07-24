@@ -1031,3 +1031,373 @@ Isliye error se darna nahi.
 
 Error tumhara teacher hai.
 
+---
+
+### 📖 Chapter 4 — print() Function (Complete Mastery)
+
+# 📌 Sabse Pehle Samjho: Function Kya Hota Hai?
+
+Hum print() use karte aa rahe hain.
+
+Lekin ye print hai kya?
+
+Programming me Function ek machine ki tarah hota hai.
+
+Real Life Example
+
+Socho tumhare ghar me ek washing machine hai.
+
+Tum kya karte ho?
+
+Clothes
+
+      ↓
+
+Washing Machine
+
+      ↓
+
+Clean Clothes
+
+Machine ke andar kya hua?
+
+Water aaya
+
+Soap mila
+
+Drum ghooma
+
+Kapde saaf hue
+
+Tumhe ye sab manually nahi karna padta.
+
+Programming me bhi function waise hi hota hai.
+
+Input
+
+   ↓
+
+Function
+
+   ↓
+
+Output
+
+print() bhi ek function hai.
+
+Tum usko kuch dete ho.
+
+Wo screen par dikha deta hai.
+
+Syntax of print()
+
+print(object)
+
+Example
+
+print("Hello")
+
+Yaha:
+
+print → Function ka naam
+
+() → Function call karne ke liye
+
+"Hello" → Data jo function ko diya gaya
+
+Example 1
+
+print("Python")
+
+- Output
+
+Python
+
+Example 2
+
+print(100)
+
+- Output
+
+100
+
+Example 3
+
+print(99.99)
+
+- Output
+
+99.99
+
+Example 4
+
+print(True)
+
+- Output
+
+True
+
+Abhi True ka matlab detail me nahi padhenge.
+
+Sirf itna yaad rakho ki Python isse bhi print kar sakta hai.
+
+print() Sirf Strings Hi Print Nahi Karta
+
+Ye numbers bhi print karta hai.
+
+Example
+
+print(10 + 20)
+
+- Output
+
+30
+
+Python pehle calculation karega.
+
+Uske baad result print karega.
+
+# 📌 Quotes ke andar jo bhi likha hai, Python usse text maanta hai.
+
+Multiple Values Print Karna
+
+Ek hi print() me multiple values bhi de sakte ho.
+
+print("My Name is", "Tapas")
+
+- Output
+
+My Name is Tapas
+
+Python automatically beech me ek space laga deta hai.
+
+Aur
+
+print("Python", "Java", "C++")
+
+- Output
+
+Python Java C++
+
+## Comma (,) Ka Role
+
+Jab hum comma use karte hain
+
+print("Age", 18)
+
+- Output
+
+Age 18
+
+Python automatically space add karta hai.
+
+sep Parameter
+
+Ab maan lo tumhe space nahi chahiye.
+
+Tumhe hyphen chahiye.
+
+print("Python", "Java", "C++", sep="-")
+
+- Output
+
+Python-Java-C++
+
+Aur
+
+print("2026", "07", "24", sep="/")
+
+Output
+
+2026/07/24
+
+Aur
+
+print("A", "B", "C", sep=" | ")
+
+- Output
+
+A | B | C
+
+end Parameter
+
+Normally
+
+print("Hello")
+
+print("World")
+
+- Output
+
+Hello
+World
+
+Kyuki har print() ke baad Python automatically next line me chala jata hai.
+
+Ye default hota hai.
+
+end="\n"
+
+\n ka matlab hai New Line.
+
+Agar hum likhe
+
+print("Hello", end=" ")
+
+print("World")
+
+- Output
+
+Hello World
+
+Ab next line nahi aayi.
+
+Aur
+
+print("Python", end=" -> ")
+
+print("Programming")
+
+- Output
+
+Python -> Programming
+
+## sep + end Together
+
+print("HTML", "CSS", "JS", sep=" | ", end=" ---> ")
+
+print("Done")
+
+- Output
+
+HTML | CSS | JS ---> Done
+Escape Characters
+
+Kabhi kabhi hume special formatting chahiye hoti hai.
+
+Python me backslash (\) se special characters likhe jaate hain.
+
+1. New Line (\n)
+
+print("Hello\nWorld")
+
+- Output
+
+Hello
+World
+
+2. Tab (\t)
+
+print("Name\tAge")
+
+- Output
+
+Name    Age
+
+3. Backslash (\\)
+
+print("C:\\Users\\Tapas")
+
+- Output
+
+C:\Users\Tapas
+
+4. Double Quote (\")
+
+print("He said \"Hello\"")
+
+- Output
+
+He said "Hello"
+
+5. Single Quote (\')
+
+print('It\'s Python')
+
+- Output
+
+It's Python
+
+# Quotes Ke Rules
+
+## Double Quotes
+
+print("Python")
+
+## Single Quotes
+
+print('Python')
+
+Dono sahi hain.
+
+Agar string me single quote hai
+
+print("It's Python")
+
+Ye best choice hai.
+
+Agar string me double quote hai
+
+print('He said "Hello"')
+
+Ye best choice hai.
+
+Triple Quotes
+
+print("""
+Welcome
+to
+Python
+""")
+
+- Output
+
+Welcome
+to
+Python
+
+Ye multi-line text ke liye useful hai.
+
+## Console Decoration
+
+print("=" * 40)
+
+print("      STUDENT REPORT")
+
+print("=" * 40)
+
+- Output
+
+========================================
+      STUDENT REPORT
+========================================
+
+Yaha "=" * 40 ka concept hum strings me detail me padhenge. Abhi bas observe karo ki Python ek character ko repeat kar sakta hai.
+
+Real Project Example
+
+print("=" * 35)
+
+print("      MY PROFILE")
+
+print("=" * 35)
+
+print("Name :", "Tapas")
+
+print("Age  :", 19)
+
+print("City :", "Godhra")
+
+print("=" * 35)
+
+- Possible Output
+
+===================================
+      MY PROFILE
+===================================
+Name : Tapas
+Age  : 19
+City : Godhra
+===================================
+
+---
